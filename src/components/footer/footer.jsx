@@ -1,6 +1,4 @@
 import './footer.css'
-import { FaFacebook } from 'react-icons/fa'
-
 export default function Footer() {
   return (
     <footer
