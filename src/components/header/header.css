@@ -12,7 +12,7 @@ ul {
 }
 
 .header {
-    height: 98px;
+    padding: 10px 0;
     position: relative;
     z-index: 999;
 }
@@ -41,6 +41,7 @@ ul {
     justify-content: space-between;
     transition: var(--transition);
     position: relative;
+    padding: 20px;
 }
 
 .header-wrapper .logo-menu {
@@ -64,7 +65,7 @@ ul {
     font-weight: 600;
     transition: var(--transition);
     text-transform: capitalize;
-    padding: 35px 0;
+    padding: 20px 0;
     text-decoration: none;
 }
 
@@ -105,5 +106,41 @@ ul {
         display: block;
         opacity: 0;
         visibility: hidden;
+    }
+    .d-xl-none {
+        display: none!important;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    .main-menu.hidden {
+        display: none;
+    }
+    .main-menu.active {
+        position: absolute;
+        top: 100%;
+        width: 100%;
+        display: inline !important;
+        left: 0;
+        z-index: 999;
+        padding: 15px 15px;
+        background: var(--white);
+        transition: var(--transition) !important;
+        transform-origin: top;
+        max-height: calc(100vh - 130px);
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+    .main-menu li:not(:last-child) {
+        border-bottom: 1px solid var(--border);
+        margin-right: 0 !important;
+    }
+    .main-menu li a {
+        padding: 15px 0;
+        margin-left: 0 !important;
+    }
+    .menu-btn {
+     margin: 20px 0;   
     }
 }

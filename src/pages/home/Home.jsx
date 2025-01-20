@@ -3,6 +3,7 @@ import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import Carousel from '../../components/section/home/BannerArea/carousel';
 import WorkArea from '../../components/section/home/WorkArea/WorkArea';
+import Achievement from '../../components/section/home/Achievement/Achievement';
 
 export default function Home() {
   let slides = [
@@ -18,6 +19,7 @@ export default function Home() {
         <Carousel slides={slides} />
       </div>
       <WorkArea />
+      <Achievement />
       <Footer />
     </div>
   );

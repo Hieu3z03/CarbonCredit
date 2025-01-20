@@ -1,22 +1,32 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './header.css'
+import { Link } from 'react-router-dom'
+
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const handleMenu = () => {
+    setMenuOpen(!menuOpen)
+  }
+
   return (
     <header className='header'>
       <div className='header-section'>
         <div className='container'>
           <div className='header-wrapper'>
             <div className='logo-menu'>
-              <a href='index.html' className='logo'>
+              <Link to='/' className='logo'>
                 <img src='assets/images/logo.svg' alt='logo' />
-              </a>
+              </Link>
             </div>
-            <div className='header-bar d-xl-none'>
-              <span></span>
-              <span></span>
-              <span></span>
+            <div className='header-bar d-xl-none' onClick={handleMenu}>
+              {menuOpen ? (
+                <i className='fa-solid fa-xmark fa-2x'></i> 
+              ) : (
+                <i className='fa-solid fa-bars fa-2x'></i> 
+              )}
             </div>
-            <ul className='main-menu'>
+            <ul className={`main-menu ${menuOpen ? 'active' : 'hidden'}`}>
               <li>
                 <a href='#'>Home </a>
               </li>
@@ -32,7 +42,7 @@ export default function Header() {
               <li>
                 <a href='contact.html'>Contact Us</a>
               </li>
-              <li className='m-0 menu-btn '>
+              <li className='m-0 menu-btn'>
                 <a href='contact.html'>
                   <span>Get a quote</span>{' '}
                   <i className='fa-solid fa-angles-right'></i>

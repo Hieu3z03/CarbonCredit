@@ -26,6 +26,19 @@
     transition: var(--transition);
 }
 
+.section-header h5 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 20px;
+}
+
+.section-header h2 {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 52px;
+}
+
 .fa-arrow-right:before {
     content: "\f061";
 }
@@ -34,7 +47,6 @@
     position: relative;
     transform: translateX(1);
     transition: 0.7s;
-    
 }
 
 .work__item-arrow::before {
