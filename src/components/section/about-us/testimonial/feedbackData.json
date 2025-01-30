@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Kenneth S. Fisher1",
+        "job": "Marketing Manager",
+        "image": "assets/images/testimonial/01.png",
+        "content": "posuere luctus orci. Donec vitae mattis quam, vitae tempor arcu. Aenean non odio porttitor, convallis erat sit amet, facilisis velit. Nulla ornare convallis"
+    },
+    {
+        "name": "Jennifer R. Tanaka2",
+        "job": "Marketing Manager",
+        "image": "assets/images/testimonial/02.png",
+        "content": "posuere luctus orci. Donec vitae mattis quam, vitae tempor arcu. Aenean non odio porttitor, convallis erat sit amet, facilisis velit. Nulla ornare convallis"
+    },
+    {
+        "name": "Kenneth S. Fisher3",
+        "job": "Marketing Manager",
+        "image": "assets/images/testimonial/01.png",
+        "content": "posuere luctus orci. Donec vitae mattis quam, vitae tempor arcu. Aenean non odio porttitor, convallis erat sit amet, facilisis velit. Nulla ornare convallis"
+    },
+    {
+        "name": "Jennifer R. Tanaka4",
+        "job": "Marketing Manager",
+        "image": "assets/images/testimonial/02.png",
+        "content": "posuere luctus orci. Donec vitae mattis quam, vitae tempor arcu. Aenean non odio porttitor, convallis erat sit amet, facilisis velit. Nulla ornare convallis"
+    }
+]

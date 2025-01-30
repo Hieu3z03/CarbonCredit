@@ -122,6 +122,84 @@ input {
   outline: none;
 }
 
+.bor {
+  border: 1px solid var(--border);
+}
+
 .bor-bottom {
   border-bottom: 1px solid var(--border);
+}
+
+.bor-left {
+  border-left: 1px solid var(--border);
+}
+
+.section-header {
+  margin-bottom: 65px;
+}
+.section-header h5 {
+  color: var(--primary-color);
+  padding-bottom: 20px;
+  text-transform: uppercase;
+}
+.section-header h5 img {
+  margin-right: 10px;
+}
+.section-header h2 {
+  text-transform: capitalize;
+}
+.section-header p {
+  margin-top: 30px;
+}
+
+@keyframes bobble {
+  0% {
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    transform: translateY(-20px) scale(1.1);
+  }
+}
+.bobble__animation {
+  animation: bobble 4s ease-in-out infinite alternate;
+}
+
+@keyframes ring-animation {
+  from {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  20%,
+  32%,
+  44%,
+  56%,
+  68% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  23%,
+  35%,
+  47%,
+  59%,
+  71% {
+    transform: rotate3d(0, 0, 1, 15deg);
+  }
+  26%,
+  38%,
+  50%,
+  62%,
+  74% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+  29%,
+  41%,
+  53%,
+  65%,
+  77% {
+    transform: rotate3d(0, 0, 1, -15deg);
+  }
+  80% {
+    transform: rotate3d(0, 0, 1, 0deg);
+  }
+}
+.ring-animation {
+  animation: ring-animation 1.5s ease-in-out infinite;
 }
