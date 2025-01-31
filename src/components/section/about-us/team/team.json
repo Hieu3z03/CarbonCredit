@@ -1,0 +1,29 @@
+{
+    "ceo": {
+        "name": "John Doe",
+        "position": "CEO",
+        "image": "assets/images/team/01.png"
+    },
+    "leadership": [
+        {
+            "name": "Jane Doe",
+            "position": "CTO",
+            "image": "assets/images/team/02.png"
+        },
+        {
+            "name": "Mike Ross",
+            "position": "CFO",
+            "image": "assets/images/team/03.png"
+        },
+        {
+            "name": "Kate White",
+            "position": "CMO",
+            "image": "assets/images/team/04.png"
+        },
+        {
+            "name": "Kate White",
+            "position": "CMO",
+            "image": "assets/images/team/04.png"
+        }
+    ]
+}

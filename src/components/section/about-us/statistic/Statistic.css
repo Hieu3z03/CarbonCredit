@@ -1,0 +1,21 @@
+.statistic-area {
+  position: relative;
+}
+.statistic__shape {
+  position: absolute;
+  right: 0;
+  top: 5%;
+}
+.statistic__item {
+  padding: 30px;
+}
+.statistic__item h2,
+.statistic__item span {
+  color: var(--primary-color);
+  font-weight: 600;
+  font-size: 60px;
+  line-height: 83px;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: var(--primary-color);
+  color: transparent;
+}

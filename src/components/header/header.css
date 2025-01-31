@@ -12,7 +12,6 @@ ul {
 }
 
 .header {
-    padding: 10px 0;
     position: relative;
     z-index: 999;
 }
@@ -42,7 +41,7 @@ ul {
     justify-content: space-between;
     transition: var(--transition);
     position: relative;
-    padding: 20px;
+    padding: 18px 0;
 }
 
 .header-wrapper .logo-menu {
@@ -60,7 +59,7 @@ ul {
     margin-right: 30px;
 }
 
-.header-wrapper .main-menu li a {
+.header-wrapper .main-menu li button {
     color: var(--heading-color);
     font-size: 16px;
     font-weight: 600;
@@ -79,7 +78,7 @@ ul {
     list-style: none;
 }
 
-.header-wrapper .main-menu .menu-btn a {
+.header-wrapper .main-menu .menu-btn button {
     margin-left: 45px;
     padding: 15px 30px;
     background-color: var(--primary-color);

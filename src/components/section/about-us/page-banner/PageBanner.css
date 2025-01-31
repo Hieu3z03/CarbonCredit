@@ -1,0 +1,14 @@
+.page-banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('/public/assets/images/banner/page-banner.jpg');
+  text-transform: capitalize;
+  text-align: center;
+}
+.page-banner h2,
+.page-banner button,
+.page-banner span {
+  color: var(--white);
+}
+.page-banner h2 {
+  margin-bottom: 20px;
+}

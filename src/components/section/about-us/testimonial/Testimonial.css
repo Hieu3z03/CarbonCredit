@@ -1,0 +1,110 @@
+.testimonial {
+  overflow: hidden;
+}
+.testimonial__head-wrp {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonial__item {
+  background-color: var(--sub-bg);
+}
+.testimonial__item-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  border-bottom: var(--border-1px);
+}
+.testimonial__item-head i {
+  font-size: 60px;
+  color: var(--primary-color);
+}
+.testimonial__item-head-info {
+  display: flex;
+  align-items: center;
+}
+.testimonial__item-head-info-image {
+  margin-right: 20px;
+}
+.testimonial__item-head-info-con span {
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-top: 15px;
+}
+.testimonial__item-content {
+  padding: 30px;
+}
+.testimonial__item-content p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #1a1919;
+}
+
+.testimonial-two__item p {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 35px;
+  color: #1a1919;
+}
+.testimonial-two__item .testi-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.testimonial-two__item .testi-header .testi-content span {
+  color: var(--primary-color);
+  padding-top: 10px;
+  font-weight: 600;
+}
+.testimonial-two__item .testi-header i {
+  font-size: 100px;
+  color: var(--primary-color);
+}
+.testimonial-two__image {
+  position: relative;
+}
+.testimonial-two__image img {
+  width: 100%;
+}
+.testimonial-two__image::after {
+  position: absolute;
+  left: -80px;
+  top: 5px;
+}
+
+.testimonial-three {
+  position: relative;
+}
+.testimonial-three__shape-left {
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+}
+.testimonial-three__shape-right {
+  position: absolute;
+  right: 0;
+  bottom: 20%;
+}
+/* Custom Dot Pagination */
+.dot-wrp {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.testimonial__dot {
+  width: 12px;
+  height: 12px;
+  background-color: #858585;
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  margin: 0 8px;
+  cursor: pointer;
+}
+.testimonial__dot.swiper-pagination-bullet-active {
+  background-color: var(--primary-color);
+  transform: scale(1.3);
+}

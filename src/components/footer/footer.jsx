@@ -5,9 +5,9 @@ export default function Footer() {
       className='footer footer-two pt-32 bg-image'
       data-background='assets/images/bg/footer-two-bg.jpg'
     >
-      <div className='container'>
+      <div className='container mx-auto 2xl:px-28 px-24'>
         <div className='footer-two__wrp'>
-          <div className='grid grid-cols-4 bg-secondary rounded-lg'>
+          <div className='grid grid-cols-4 bg-secondary rounded-lg '>
             <div
               className='wow fadeInUp'
               data-wow-duration='1.2s'
@@ -15,7 +15,7 @@ export default function Footer() {
             >
               <div className='footer__item footer-two__item bg-green-600 h-full rounded-s-lg'>
                 <a href='index.html' className='logo mb-7'>
-                  <img src='assets/images/logo-light.svg' alt='logo' />
+                  <img src='assets/images/logo/logo-light.svg' alt='logo' />
                 </a>
                 <p className='bor-bottom pb-5 mb-5'>
                   Tree planting is the act of planting young trees, shrubs, or
