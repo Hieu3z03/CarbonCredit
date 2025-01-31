@@ -7,13 +7,13 @@ export default function Footer() {
     >
       <div className='container mx-auto 2xl:px-28 px-24'>
         <div className='footer-two__wrp'>
-          <div className='grid grid-cols-4 bg-secondary rounded-lg'>
+          <div className='grid grid-cols-4 bg-secondary rounded-lg '>
             <div
               className='wow fadeInUp'
               data-wow-duration='1.2s'
               data-wow-delay='.2s'
             >
-              <div className='footer__item footer-two__item bg-primary h-full rounded-s-lg'>
+              <div className='footer__item footer-two__item bg-green-600 h-full rounded-s-lg'>
                 <a href='index.html' className='logo mb-7'>
                   <img src='assets/images/logo/logo-light.svg' alt='logo' />
                 </a>

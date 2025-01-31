@@ -11,7 +11,7 @@ import OurInfo from '../../components/section/about-us/our-info/OurInfo';
 
 export default function AboutUs() {
   return (
-    <div className='container mx-auto'>
+    <div className=' mx-auto'>
       <Header />
       <div className='mt-24'>
         <PageBanner />

@@ -4,6 +4,7 @@ import Footer from '../../components/footer/footer';
 import Carousel from '../../components/section/home/BannerArea/carousel';
 import WorkArea from '../../components/section/home/WorkArea/WorkArea';
 import Achievement from '../../components/section/home/Achievement/Achievement';
+import TeamArea from '../../components/section/home/TeamArea/TeamArea';
 
 export default function Home() {
   let slides = [
@@ -20,6 +21,7 @@ export default function Home() {
       </div>
       <WorkArea />
       <Achievement />
+      <TeamArea />
       <Footer />
     </div>
   );
