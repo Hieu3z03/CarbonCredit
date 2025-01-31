@@ -13,7 +13,7 @@ export default function Footer() {
               data-wow-duration='1.2s'
               data-wow-delay='.2s'
             >
-              <div className='footer__item footer-two__item bg-primary h-full rounded-s-lg'>
+              <div className='footer__item footer-two__item bg-green-600 h-full rounded-s-lg'>
                 <a href='index.html' className='logo mb-7'>
                   <img src='assets/images/logo-light.svg' alt='logo' />
                 </a>

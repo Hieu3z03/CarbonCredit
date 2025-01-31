@@ -11,7 +11,7 @@ export default function Header() {
 
   return (
     <header className='header'>
-      <div className='header-section'>
+      <div className='header-section '>
         <div className='container'>
           <div className='header-wrapper'>
             <div className='logo-menu'>

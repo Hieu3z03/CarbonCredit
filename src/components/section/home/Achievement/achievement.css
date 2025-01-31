@@ -18,6 +18,9 @@
 
 .achievement__item {
     position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .achievement__item h5 {
