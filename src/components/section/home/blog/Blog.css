@@ -1,0 +1,137 @@
+/* Tổng quan */
+.blog-two {
+    position: relative;
+    overflow: hidden;
+    padding: 50px 0; /* Khoảng cách trên và dưới */
+    background-color: var(--light-bg); /* Thay đổi theo ý muốn */
+}
+
+.blog__head-wrp {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 40px; /* Khoảng cách dưới tiêu đề */
+}
+
+/* Bài viết */
+.donation__item {
+    overflow: hidden;
+    background-color: var(--white);
+    padding: 20px;
+    border-radius: 10px; /* Bo góc */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Hiệu ứng nổi nhẹ */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.donation__item:hover {
+    transform: translateY(-5px); /* Hiệu ứng nổi khi hover */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Ảnh trong bài viết */
+.blog-two__image {
+    position: relative;
+    width: 100%;
+    height: 250px; /* Chiều cao cố định */
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.blog-two__image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.4s ease;
+}
+
+.blog-two__image:hover img {
+    transform: scale(1.1); /* Phóng to ảnh khi hover */
+}
+
+/* Thông tin ngày tháng */
+.blog-two__item .blog-two__info {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    background-color: var(--sub-bg);
+    color: var(--white);
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.blog-two__item .blog-two__info h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.blog-two__item .blog-two__info span {
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+
+/* Tiêu đề bài viết */
+.donation__item h3 {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--dark-text);
+    margin: 15px 0;
+    transition: color 0.3s ease;
+}
+
+.donation__item h3 a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.donation__item:hover h3 {
+    color: var(--primary-color);
+}
+
+/* Nút mũi tên */
+.donation__item-arrow, .blog-two__item-arrow {
+    font-size: 16px;
+    color: var(--primary-color);
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    transition: transform 0.3s ease;
+}
+
+.donation__item:hover .donation__item-arrow {
+    transform: translateX(5px); /* Di chuyển nhẹ sang phải */
+}
+
+.blog-two__item-arrow::before {
+    content: "Read More";
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-right: 10px;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .blog__head-wrp {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .blog-two__image {
+        height: 200px; /* Giảm chiều cao ảnh trên màn hình nhỏ */
+    }
+
+    .donation__item {
+        padding: 15px;
+    }
+
+    .donation__item h3 {
+        font-size: 18px;
+    }
+
+}

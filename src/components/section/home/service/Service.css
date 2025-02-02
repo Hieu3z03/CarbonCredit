@@ -1,0 +1,79 @@
+.service {
+    overflow: hidden;
+    position: relative;
+}
+
+.service-two {
+    position: relative;
+}
+
+.service-two__shape-left {
+    position: absolute;
+    left: 0;
+    bottom: 8%;
+    z-index: -1;
+}
+
+.service-two__shape-right {
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.service-two__item a {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    width: 100%;
+    padding: 47px 0;
+    font-size: 40px;
+    line-height: 50px;
+    font-weight: 600;
+    border-bottom: var(--border-1px);
+    transition: var(--transition);
+    color: var(--span);
+}
+
+.service-two__item a i {
+    transform: rotate(-45deg);
+    transition: var(--transition);
+    color: var(--span);
+}
+
+
+
+.service-two__item a:hover {
+    color: var(--primary-color); /* Thay đổi màu chữ */
+    transform: scale(1.02); /* Phóng to nhẹ */
+    text-decoration: none; /* Loại bỏ gạch dưới */
+}
+
+.service-two__item a:hover i {
+    transform: rotate(0deg); /* Đặt icon trở về trạng thái ban đầu */
+    color: var(--primary-color); /* Thay đổi màu icon */
+}
+.image img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px; /* Bo góc cho ảnh */
+    transition: opacity 0.4s ease, transform 0.4s ease; 
+    opacity: 1;
+}
+
+.image img.fade-out {
+    opacity: 0; 
+    transform: scale(1.02); 
+}
+
+.image img.fade-in {
+    opacity: 1; 
+    transform: scale(1); 
+}
+@media screen and (max-width: 575px) {
+    .service-two__item a {
+        font-size: 25px;
+    }
+}

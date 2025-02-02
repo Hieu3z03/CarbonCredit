@@ -7,7 +7,7 @@ export default function Footer() {
     >
       <div className='container mx-auto 2xl:px-28 px-24'>
         <div className='footer-two__wrp'>
-          <div className='grid grid-cols-4 bg-secondary rounded-lg '>
+          <div className='grid grid-cols-4 bg-black rounded-lg '>
             <div
               className='wow fadeInUp'
               data-wow-duration='1.2s'

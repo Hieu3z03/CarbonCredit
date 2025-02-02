@@ -2,7 +2,7 @@ import React from 'react'
 import './TeamArea.css'
 export default function TeamArea() {
     return (
-        <section className="team team-two pt-60 pb-60 sub-bg">
+        <section className="team team-two pb-48 sub-bg">
             <div className="team-two__shape sway__animation d-none d-lg-block">
                 <img className="wow slideInLeft" data-wow-duration="2s" data-wow-delay="1s"
                     src="assets/images/team2.png" alt="shape"
