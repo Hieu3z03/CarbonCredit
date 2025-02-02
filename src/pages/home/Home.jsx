@@ -3,7 +3,7 @@ import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
 import Carousel from '../../components/section/home/banner-area/carousel';
 import WorkArea from '../../components/section/home/work-area/WorkArea';
-import Achievement from '../../components/section/home/achievement/Achievements';
+import Achievement from '../../components/section/home/achievement/Achievement';
 import TeamArea from '../../components/section/home/team-area/TeamArea';
 import Service from '../../components/section/home/service/Service';
 import Blog from '../../components/section/home/blog/Blog';
