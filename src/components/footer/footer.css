@@ -87,7 +87,7 @@ footer {
   color: var(--white) !important;
 }
 .footer-two__copyright {
-  padding: 60px 0;
+  /* padding: 60px 0; */
   background-color: transparent;
 }
 .footer-two__copyright p {

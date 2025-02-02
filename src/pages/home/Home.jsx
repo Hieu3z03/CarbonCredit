@@ -1,10 +1,12 @@
 import React from 'react';
 import Header from '../../components/header/header';
 import Footer from '../../components/footer/footer';
-import Carousel from '../../components/section/home/BannerArea/carousel';
-import WorkArea from '../../components/section/home/WorkArea/WorkArea';
-import Achievement from '../../components/section/home/Achievement/Achievement';
-import TeamArea from '../../components/section/home/TeamArea/TeamArea';
+import Carousel from '../../components/section/home/banner-area/carousel';
+import WorkArea from '../../components/section/home/work-area/WorkArea';
+import Achievement from '../../components/section/home/achievement/Achievements';
+import TeamArea from '../../components/section/home/team-area/TeamArea';
+import Service from '../../components/section/home/service/Service';
+import Blog from '../../components/section/home/blog/Blog';
 
 export default function Home() {
   let slides = [
@@ -21,7 +23,9 @@ export default function Home() {
       </div>
       <WorkArea />
       <Achievement />
+      <Service />
       <TeamArea />
+      <Blog />
       <Footer />
     </div>
   );

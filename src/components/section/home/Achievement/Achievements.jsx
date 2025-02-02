@@ -2,7 +2,7 @@ import React from 'react'
 import './achievement.css'
 export default function Achievement() {
     return (
-        <div className="achievement-two mt-130">
+        <div className="achievement-two mt-36 ">
             <div className="container">
                 <div className="achievement p-5" style={{backgroundImage: "url(assets/images/achievement.jpg)"}}>
                     <div className="row g-4 align-items-center justify-content-between">
