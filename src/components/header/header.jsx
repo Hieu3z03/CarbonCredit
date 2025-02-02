@@ -13,7 +13,7 @@ export default function Header() {
   return (
     <header className='header'>
       <div className='header-section'>
-        <div className='container mx-auto 2xl:px-28 px-24'>
+        <div className='container mx-auto 2xl:px-28 lg:px-24 md:px-16 '>
           <div className='header-wrapper'>
             <div className='logo-menu'>
               <Link to='/' className='logo'>

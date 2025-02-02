@@ -2,9 +2,9 @@ import './Statistic.css';
 
 export default function Statistic() {
   return (
-    <section className='statistic-area bg-sub pt-32 pb-32 2xl:px28 px-24'>
+    <section className='statistic-area bg-sub pt-32 pb-32 2xl:px-28 lg:px-24 md:px-16 '>
       <div className='container'>
-        <div className='grid grid-cols-2 gap-7'>
+        <div className='grid md:grid-cols-2 md:gap-7 grid-cols-1 gap-6'>
           <div className='image'>
             <img
               src='assets/images/service/statistic-image.jpg'
@@ -39,7 +39,7 @@ export default function Statistic() {
                 tree species to the local ecosystem
               </p>
             </div>
-            <div className='grid grid-cols-2 gap-8'>
+            <div className='grid md:grid-cols-2 md:gap-8 grid-cols-1 gap-4'>
               <div
                 className='wow fadeInDown'
                 data-wow-duration='1.2s'

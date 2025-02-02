@@ -4,7 +4,7 @@ import teamData from './team.json';
 export default function Team() {
   return (
     <section className='team pt-8 pb-32'>
-      <div className='container 2xl:px-28 px-24 mx-auto'>
+      <div className='container 2xl:px-28 lg:px-24 md:px-16  mx-auto'>
         <div className='section-header text-center'>
           <h5
             className='wow fadeInUp inline-flex'

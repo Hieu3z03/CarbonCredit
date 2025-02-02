@@ -3,10 +3,10 @@ import './OurInfo.css';
 function OurInfo() {
   return (
     <div className='our-info' data-background='assets/images/bg/our-info.jpg'>
-      <div className='container 2xl:px28 px-24'>
-        <div className='grid grid-cols-12 items-center gap-8'>
+      <div className='container 2xl:px-28 lg:px-24 md:px-8 '>
+        <div className='grid md:grid-cols-12 md:items-center md:gap-4 gap-12'>
           <div
-            className='col-span-3'
+            className='md:col-span-3 flex items-center justify-center'
             data-wow-duration='1.4s'
             data-wow-delay='.4s'
           >
@@ -19,7 +19,7 @@ function OurInfo() {
             </button>
           </div>
           <div
-            className='col-span-5 wow fadeInDown'
+            className='md:col-span-5 wow fadeInDown'
             data-wow-duration='1.6s'
             data-wow-delay='.6s'
           >
@@ -29,7 +29,7 @@ function OurInfo() {
               <i className='fa-solid fa-paper-plane our-info__input-plane'></i>
             </div>
           </div>
-          <div className='col-span-4'>
+          <div className='md:col-span-4 flex items-center justify-center'>
             <div className='our-info__social-icon lg:float-end float-none mt-1 lg:mt-0'>
               <a
                 className='wow fadeInUp'

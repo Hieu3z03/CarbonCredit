@@ -125,9 +125,11 @@ footer {
   transition: var(--transition);
   border: 1px solid var(--white);
   font-size: 14px;
-  margin-right: 10px;
+  margin-right: 6px;
 }
 
 @media screen and (max-width: 1200px) {
-  
+  .footer-two__item .social-icon a {
+    margin-right: 14px;
+  }
 }

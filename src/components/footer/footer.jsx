@@ -1,13 +1,13 @@
-import './footer.css'
+import './footer.css';
 export default function Footer() {
   return (
     <footer
       className='footer footer-two pt-32 bg-image'
       data-background='assets/images/bg/footer-two-bg.jpg'
     >
-      <div className='container mx-auto 2xl:px-28 px-24'>
+      <div className='mx-auto 2xl:px-28 lg:px-24 md:px-16 sm:px-0'>
         <div className='footer-two__wrp'>
-          <div className='grid grid-cols-4 bg-black rounded-lg '>
+          <div className='grid md:grid-cols-4 grid-cols-1 bg-black rounded-lg '>
             <div
               className='wow fadeInUp'
               data-wow-duration='1.2s'
@@ -123,7 +123,10 @@ export default function Footer() {
             >
               <div className='footer__item footer-two__item'>
                 <div className='footer__item-title'>
-                  <h4>Subscribe Newsletter</h4>
+                  <h4>
+                    <span className='inline-block md:h-6 xl:h-0'>Subscribe</span>{' '}
+                    <span className='inline-block'>Newsletter</span>
+                  </h4>
                   <span className='footer__item-title-line'></span>
                   <span className='footer__item-title-line2'></span>
                 </div>
@@ -148,5 +151,5 @@ export default function Footer() {
         </p>
       </div>
     </footer>
-  )
+  );
 }
